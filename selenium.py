@@ -17,8 +17,8 @@ driver.maximize_window()
 # logging in
 username = driver.find_element("id", "username")
 password = driver.find_element("id", "password")
-username.send_keys("hessamghadiri@gmail.com")
-password.send_keys('james15HARDEN')
+username.send_keys("ENTER YOUR EMAIL")
+password.send_keys('ENTER YOUR PASSWORD')
 login = driver.find_element(By.ID, "kc-login")
 login.click()
 
@@ -68,4 +68,3 @@ R_and_SC(driver,30)
 R_and_SC(driver,60)
 R_and_SC(driver,90)
 R_and_SC(driver,120)
-
