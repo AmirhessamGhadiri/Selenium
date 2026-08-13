@@ -4,7 +4,7 @@ import selenium
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-cService = webdriver.ChromeService(executable_path='E:\SeleniumDrivers\chromedriver-win64\chromedriver.exe')
+cService = webdriver.ChromeService(executable_path="chromedriver.exe path on your PC")
 driver = webdriver.Chrome(service = cService)
 
 # wait time
