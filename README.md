@@ -1,8 +1,3 @@
-This code can be used for automating the process of taking pictures of different angles of a BIM object that is uploaded to the usBIM online model viewer.
-To use this code, you should create an account and enter your Email address and password in the code.
-By running it after uploading a file, you will have 4 pictures taken from 4 different angles of an object. 
-The angles and the number of the pictures can be customized.
-
 # usBIM Angle Snapshot Automation
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -13,7 +8,7 @@ An automated Python script using **Selenium** to capture multi-angle snapshots o
 
 ---
 
-## 📌 Overview
+## Overview
 
 Automating image acquisition for 3D Building Information Modeling (BIM) components can be tedious. This project automates the process of opening a uploaded model in the usBIM viewer, rotating the object to specified camera angles, and taking consistent high-quality snapshots automatically.
 
@@ -24,7 +19,7 @@ Automating image acquisition for 3D Building Information Modeling (BIM) componen
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 Before running the script, make sure you have:
 * Python 3.8 or higher installed
@@ -33,7 +28,7 @@ Before running the script, make sure you have:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
