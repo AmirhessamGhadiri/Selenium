@@ -10,7 +10,7 @@ An automated Python script using **Selenium** to capture multi-angle snapshots o
 
 ## Overview
 
-Automating image acquisition for 3D Building Information Modeling (BIM) components can be tedious. This project automates the process of opening a uploaded model in the usBIM viewer, rotating the object to specified camera angles, and taking consistent high-quality snapshots automatically.
+Automating image acquisition for 3D Building Information Modeling (BIM) components can be tedious. This project automates the process of opening an uploaded model in the usBIM viewer, rotating the object to specified camera angles, and taking consistent high-quality snapshots automatically.
 
 ### Key Features
 * **Automated Interaction:** Logs in and loads models directly in the usBIM viewer.
@@ -31,6 +31,34 @@ Before running the script, make sure you have:
 ## Getting Started
 
 ### 1. Clone the Repository
-```bash
-git clone [https://github.com/AmirhessamGhadiri/Selenium.git](https://github.com/AmirhessamGhadiri/Selenium.git)
-cd Selenium
+`git clone https://github.com/AmirhessamGhadiri/Selenium.git`  
+`cd Selenium`
+
+### 2. Set Up a Virtual Environment & Install Dependencies
+`python -m venv venv`  
+`source venv/bin/activate`  *(On Windows use: `venv\Scripts\activate`)*  
+`pip install -r requirements.txt`
+
+### 3. Environment Configuration
+To keep your credentials secure, create a `.env` file in the root directory:
+
+USBIM_EMAIL=your_email@example.com  
+USBIM_PASSWORD=your_secure_password  
+
+---
+
+## Usage
+
+1. Upload your target 3D model file to your usBIM account.
+2. Update the target model URL or parameters in `selenium.py` if needed.
+3. Run the automation script:
+
+`python selenium.py`
+
+The script will automatically execute, capture the designated angles, and save the resulting images to your local directory.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
